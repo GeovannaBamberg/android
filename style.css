@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Android';
+    src: url('/assets/fonts/IDroid.otf') format('OpenType');
+}
+body{
+
+    background-color: rgb(202, 246, 219);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to top,#1C633B, #3AD07D);
+    margin: 0px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(233, 253, 233); 
+}
+nav{
+    text-align: left;
+    height: 30px;
+}
+nav a{
+    color: rgb(192, 222, 192);
+    text-decoration: none;
+    font-size: 1em;
+    margin: 5px;
+}
+nav a:hover{
+    background-color: rgb(9, 123, 9);
+    color: rgb(255, 235, 154);
+}
+main{
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+    
+    
+}
+main h2{
+    font-family: 'Android', sans-serif;
+    color: #1a7342;
+}
+main h3{
+    background-image: linear-gradient(to right,rgba(146, 221, 176, 0.452)  , rgba(146, 221, 176, 0.076));
+    width: 600px;
+    font-family: 'Android', sans-serif;
+    color: #1a7342;
+}
+#videos{
+    background-color: #1C633B;
+    height: auto;
+    width: auto;
+
+}
+
+#aprenderMais{
+    background-color: #bff0d3;
+    border-radius: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+#aprenderMais h4{
+    background-color: #3ec478;
+    margin-top: 0px;
+    height: 30px;
+    text-align: justify;
+    color: #fbfffd;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+#aprenderMais p{
+    margin: 0px;
+    padding: 15px;
+}
